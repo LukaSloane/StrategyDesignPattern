@@ -8,7 +8,7 @@ Speed speed;
 
 Console.WriteLine("Choose sorting algorithm:\n[S]low Bubble Sort (default)\n[M]edium Insertion Sort\n[F]ast Quick Sort");
 
-char auswahlSpeed = Console.ReadLine()[0];
+char? auswahlSpeed = Console.ReadLine().ToUpper()[0];
 
 if(auswahlSpeed == 'S')
 {
